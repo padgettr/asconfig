@@ -1,0 +1,5 @@
+03-01-2021: Added stream pcm
+16-01-2021: Use null audio device for stream if not set as default
+15-02-2021: Add capture devices
+20-02-2021: re-wrote print_asoundrc(): move each section of asoundrc to separate functions.
+21-02-2021: Alter how capture devices work: remove default capture controls: if nothing is selected, do not add any capture devices.

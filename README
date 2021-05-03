@@ -1,0 +1,18 @@
+GTK3 alsa sound configuration
+-----------------------------
+
+Creates a '.asoundrc' file in the users home dir with chosen parameters
+Can configure alsa stream to icecast: requires e.g. lame, icecast and ezstream for this.
+
+Read the source code and change the config at the start as required.
+Requires alsa-plugins for speexrate resampler, on arch linux use
+
+pacman -S alsa-lib
+pacman -S alsa-plugins
+
+
+then:
+
+make
+make install
+
